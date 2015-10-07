@@ -9,5 +9,6 @@ public class AppTest extends TestCase {
 
 	public void testApp() {
 		App.main(null);
+		App.sayHello("norbert");
 	}
 }

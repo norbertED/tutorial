@@ -12,4 +12,8 @@ public class App
     	PropertyConfigurator.configure("C:/Software NJA/ws_mars/MvnJarMitLibs/target/log4j.properties");
     	LOGGER.info("--- Hallo Logger! ---");
     }
+    
+    public static String sayHello(String name) {
+    	return("Hello " + name.trim());
+    }
 }
