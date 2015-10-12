@@ -89,7 +89,7 @@ public class BuecherCrudDAO {
 	}
 
 	//Per ISBN definiertes Buch löschen
-	public BuchDO deleteBuchByISBN ( Long isbn) {
+	public BuchDO deleteBuchByIsbn ( Long isbn) {
 		synchronized (buecherPool) {
 		
 			return buecherPool.remove( isbn);
