@@ -48,10 +48,9 @@ public class BuecherCrudDAO {
 		return (isbn == null) ? null : buecherPool.get(isbn);
 	}
 
-	// Finde Bücher
+	// Finde Buecher:
 	public List<BuchDO> findeBuecher(Long isbn, String titel) {
-
-		List<BuchDO> resultList = new ArrayList<BuchDO>(buecherPool.values());
+		List<BuchDO> resultList = new ArrayList<BuchDO>();
 		List<BuchDO> snapshotList;
 		if (isbn == null && isEmpty(titel))
 			return Collections.unmodifiableList(new ArrayList<BuchDO>(buecherPool.values()));
@@ -88,14 +87,14 @@ public class BuecherCrudDAO {
 		}
 	}
 
-	//Per ISBN definiertes Buch löschen
-	public BuchDO deleteBuchByIsbn ( Long isbn) {
+	// Per ISBN definiertes Buch löschen
+	public BuchDO deleteBuchByIsbn(Long isbn) {
 		synchronized (buecherPool) {
-		
-			return buecherPool.remove( isbn);
+
+			return buecherPool.remove(isbn);
 		}
 	}
-	
+
 	private static boolean isEmpty(String s) {
 		return s == null || s.trim().length() <= 0;
 	}
