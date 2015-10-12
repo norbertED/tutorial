@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37882" started-at="2015-10-12T10:24:20Z" finished-at="2015-10-12T10:24:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37882" started-at="2015-10-12T10:24:20Z" finished-at="2015-10-12T10:24:58Z">
+      <class name="de.meinefirma.meinprojekt.BuecherCrudDAOTest">
+        <test-method status="PASS" signature="testCreateBuchDuplicateCreateException()[pri:0, instance:de.meinefirma.meinprojekt.BuecherCrudDAOTest@2dcfde49]" name="testCreateBuchDuplicateCreateException" duration-ms="8" started-at="2015-10-12T12:24:20Z" finished-at="2015-10-12T12:24:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBuchDuplicateCreateException -->
+        <test-method status="PASS" signature="testDeleteBuchByIsbn()[pri:0, instance:de.meinefirma.meinprojekt.BuecherCrudDAOTest@2dcfde49]" name="testDeleteBuchByIsbn" duration-ms="2" started-at="2015-10-12T12:24:20Z" finished-at="2015-10-12T12:24:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteBuchByIsbn -->
+        <test-method status="PASS" signature="testFindeBuecher()[pri:0, instance:de.meinefirma.meinprojekt.BuecherCrudDAOTest@2dcfde49]" name="testFindeBuecher" duration-ms="37844" started-at="2015-10-12T12:24:20Z" finished-at="2015-10-12T12:24:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindeBuecher -->
+        <test-method status="PASS" signature="testGetBuchByIsbn()[pri:0, instance:de.meinefirma.meinprojekt.BuecherCrudDAOTest@2dcfde49]" name="testGetBuchByIsbn" duration-ms="1" started-at="2015-10-12T12:24:58Z" finished-at="2015-10-12T12:24:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBuchByIsbn -->
+        <test-method status="PASS" signature="testUpdateBuchByIsbn()[pri:0, instance:de.meinefirma.meinprojekt.BuecherCrudDAOTest@2dcfde49]" name="testUpdateBuchByIsbn" duration-ms="0" started-at="2015-10-12T12:24:58Z" finished-at="2015-10-12T12:24:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateBuchByIsbn -->
+      </class> <!-- de.meinefirma.meinprojekt.BuecherCrudDAOTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
